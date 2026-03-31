@@ -1,0 +1,15 @@
+{
+  "name": "playwright-qa-assignment",
+  "version": "1.0.0",
+  "description": "Playwright QA Automation Framework",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.0.0"
+  }
+}
